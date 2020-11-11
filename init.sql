@@ -26,7 +26,7 @@ SLECT * FROM movie
 --FOREIGN KEYS EXISTING TABLE
 --we can also add a foreign key to an existing table.
 --add a new column to the movie table called genre_id that references genre_id on the genre table
-ALTER TALBE movie
+ALTER TABLE movie
 ADD COLUMN genre_id INT REFERENCES genre(genre_id)
 
 --UPDATING ROWS
